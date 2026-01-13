@@ -1,23 +1,31 @@
 # student-grade-evaluator
 
 ## Description
-Python CLI program that converts numeric scores into letter grades with input validation
+A Python command-line program that conversts numeric student scores into letter grades.
+The program validates user input and ensures scores are within an acceptable range.
 
 ## Features
--Converts scores 0 - 100 into letter grade A - F
--Input validation for numeric values
--Error handling for out-of-range values
--Continous evaluation until exit
+- Accepts numeric scores from 0 to 100
+- Converts scores to letter grades (A-F)
+- Handles invalid input using exception hanlding
+- Allows multiple entries in one session
 
 ## Technologies Used
--Python
--Conditional Statements
--Loops
--Exception Hanlding
+- Python 3
+- Standard library only
 
 ## How to Run
-1. Ensure Python is installed
-2. Run the program
+1. Clone the repository
+2. Navigate to the project folder
+3. Run the program:
+   python student-grade-evaluator.py
 
-## Author
-Dennis C.
+## Example Usage
+The user enters a numeric score, and the program outpus the corresponding letter grade.
+Invalid or out-of-range values prompt an error message.
+
+## What I learned
+- Using conditional logic to evaluate ranges
+- Validating user input
+- Handling exceptions with try/except
+- Writing structed CLI programs
